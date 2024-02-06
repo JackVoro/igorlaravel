@@ -7,10 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-</h1>Home  About Contacts</h1>
+</p>Contacts</p>
 <a href="/">go to home</a>
 <a href="/contacts">go to contacts</a>
 <a href="/about">go to about</a>
-
+<p id="np">Nume,Prenume</p>
+<p>
+<?php
+echo $np;
+?>
+</p>
 </body>
 </html>
